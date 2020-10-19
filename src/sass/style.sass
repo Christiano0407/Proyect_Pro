@@ -90,3 +90,42 @@ body
                color: #a5a5a5
                font-weight: 500
 //Play Button
+.controls-wrapper
+              display: flex
+              align-items: center
+              justify-content: space-between
+              width: 100%
+              padding: 0 9.5rem
+
+              svg 
+                  transition: opacity 0.1s ease
+
+                  &:active
+                      opacity: 0.5
+
+.play-icon
+        border: 0
+        background: transparent
+        width: 0
+        height: 1.9rem
+        outline: 0
+        border-color: transparent transparent transparent #ffffff
+        transition: 100ms all ease
+        cursor: pointer
+        border-style: solid 
+        border-width: 1rem 0 1rem 1.6rem
+
+.paused 
+     border-style: double
+     border-width: 0 0 0 1.5rem
+
+.backward-btn
+        transform: rotate(180deg)
+
+//options
+.option-wrapper
+            display: flex
+            justify-content: space-between
+            width: 100%
+            padding: 0 5rem
+            margin-bottom: 4.5rem

@@ -140,4 +140,63 @@ body {
   color: #a5a5a5;
   font-weight: 500;
 }
+
+.controls-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0 9.5rem;
+}
+
+.controls-wrapper svg {
+  -webkit-transition: opacity 0.1s ease;
+  transition: opacity 0.1s ease;
+}
+
+.controls-wrapper svg:active {
+  opacity: 0.5;
+}
+
+.play-icon {
+  border: 0;
+  background: transparent;
+  width: 0;
+  height: 1.9rem;
+  outline: 0;
+  border-color: transparent transparent transparent #ffffff;
+  -webkit-transition: 100ms all ease;
+  transition: 100ms all ease;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1rem 0 1rem 1.6rem;
+}
+
+.paused {
+  border-style: double;
+  border-width: 0 0 0 1.5rem;
+}
+
+.backward-btn {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.option-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0 5rem;
+  margin-bottom: 4.5rem;
+}
 /*# sourceMappingURL=style.css.map */
