@@ -27,4 +27,117 @@ body {
           align-items: center;
   overflow: hidden;
 }
+
+.cover-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 38rem;
+}
+
+.cover-row div div {
+  height: 21.5rem;
+  width: 21.5rem;
+  margin: 0 2rem;
+  border-radius: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #000;
+}
+
+.cover-row div div::after {
+  content: "";
+  display: block;
+  height: 20rem;
+  width: 20rem;
+  margin-top: 5.5rem;
+  z-index: -1;
+  -webkit-filter: blur(2.5rem) saturate(2);
+          filter: blur(2.5rem) saturate(2);
+}
+
+.cover-one {
+  background-image: url(../img/aud1.jpg);
+}
+
+.cover-one::after {
+  background-image: url(../img/aud1.jpg);
+}
+
+.cover-two {
+  background-image: url(../img/aud2.jpg);
+}
+
+.cover-two::after {
+  background-image: url(../img/aud2.jpg);
+}
+
+.cover-three {
+  background-image: url(../img/aud1.jpg);
+}
+
+.cover-three::after {
+  background-image: url(../img/aud1.jpg);
+}
+
+.cover-four {
+  background-image: url(../img/aud2.jpg);
+}
+
+.cover-four::after {
+  background-image: url(../img/aud2.jpg);
+}
+
+.cover-five {
+  background-image: url(../img/aud1.jpg);
+}
+
+.cover-five::after {
+  background-image: url(../img/aud1.jpg);
+}
+
+.title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -5rem;
+}
+
+.title-wrapper h1 {
+  font-size: 3rem;
+  color: #0a1f3a;
+  font-weight: 800;
+  margin-bottom: .5rem;
+  letter-spacing: .1rem;
+}
+
+.title-wrapper h2 {
+  font-size: 1.6rem;
+  color: #a5a5a5;
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */
