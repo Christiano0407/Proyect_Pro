@@ -94,13 +94,28 @@ document.addEventListener(`DOMContentLoaded`, () => {
     }
 
     function scaleCoverDownNext() {
-
+     let prevSongNumber = songNumber -1;
+     anime({
+         targets: `.${songArray[prevSongNumber]}`,
+         scale: 1,
+         easing: `easeOutExpo`,
+         duration: 1500,
+     })
     }
  
     function scaleCoverDownPrev() {
-
+     let nextSongNumber = songNumber +1;
+     anime({
+         targets: `.${songArray[nextSongNumber]}`,
+         scale: 1,
+         easing: `easeOutExpo`,
+         duration: 1500,
+     })
     }
 
     //Play and Pause Button
-
+    let playBtn = document.querySelector(`.play-icon`);
+    playBtn.addEventListener(`click`, () => {
+        playBtn.classList.toggle(`paused`);
+    } )
 })
