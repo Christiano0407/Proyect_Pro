@@ -1,0 +1,23 @@
+{
+  "name": "javascriptpro",
+  "version": "1.0.0",
+  "description": "node_proyect",
+  "main": "src/js/index.js",
+  "scripts": {
+    "index": "node src/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/Proyect_Pro.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/Proyect_Pro/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/Proyect_Pro#readme"
+}
