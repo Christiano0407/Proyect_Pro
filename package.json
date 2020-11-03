@@ -4,7 +4,8 @@
   "description": "node_proyect",
   "main": "src/js/index.js",
   "scripts": {
-    "index": "node src/js/index.js"
+    "index": "node src/js/index.js",
+    "callbacks": "node src/async/callbacks.js"
   },
   "repository": {
     "type": "git",
