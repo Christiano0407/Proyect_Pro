@@ -6,7 +6,8 @@
   "scripts": {
     "index": "node src/js/index.js",
     "callbacks": "node src/async/callbacks.js",
-    "callbacks:callbackHelp": "node src/async/callbackHelp.js"
+    "callbacks:callbackHelp": "node src/async/callbackHelp.js",
+    "promesas": "node src/promesas/promesa.js"
   },
   "repository": {
     "type": "git",
