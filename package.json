@@ -9,7 +9,8 @@
     "callbacks:callbackHelp": "node src/async/callbackHelp.js",
     "promesas": "node src/promesas/promesa.js",
     "modulos": "node src/modulos/globales.js",
-    "modulos:failSistem": "node src/modulos:failSistem.js"
+    "modulos:failSistem": "node src/modulos:failSistem.js",
+    "modulos:failSistem:consoles": "node src/modulos/consoles.js"
   },
   "repository": {
     "type": "git",
