@@ -7,3 +7,12 @@ let intervalo = setInterval(function() {
        }
        i++;
 }, 1000);
+
+//---Inmediata
+setImmediate(function() {
+    console.log("Hola");
+});
+
+//--var globales
+/* global.miVariable = `El Valor`;
+console.log(miVariable); */
