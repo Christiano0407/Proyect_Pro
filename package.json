@@ -10,7 +10,8 @@
     "promesas": "node src/promesas/promesa.js",
     "modulos": "node src/modulos/globales.js",
     "modulos:failSistem": "node src/modulos:failSistem.js",
-    "modulos:failSistem:consoles": "node src/modulos/consoles.js"
+    "modulos:failSistem:consoles": "node src/modulos/consoles.js",
+    "modulos:failSistem:consoles:errores": "node src/modulos/errores.js"
   },
   "repository": {
     "type": "git",
