@@ -11,7 +11,8 @@
     "modulos": "node src/modulos/globales.js",
     "modulos:failSistem": "node src/modulos:failSistem.js",
     "modulos:failSistem:consoles": "node src/modulos/consoles.js",
-    "modulos:failSistem:consoles:errores": "node src/modulos/errores.js"
+    "modulos:failSistem:consoles:errores": "node src/modulos/errores.js",
+    "modulos:failSistem:consoles:errores:procesoHijo": "node src/modules/procesoHijo.js"
   },
   "repository": {
     "type": "git",
